@@ -1,0 +1,149 @@
+/*
+Bootstrap More
+Copyright (C) 2012 Guillaume AMAT <guillaume.amat@informatique-libre.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+/**** Typography ****/
+
+.align-left		{ text-align: left;		}
+.align-center	{ text-align: center;	}
+.align-right	{ text-align: right;	}
+.align-justify	{ text-align: justify;	}
+
+.font-sans-serif	{ font-family: 'Liberation Sans', 'DejaVu Sans', Arial, Helvetica, 'Helvetica Neue', sans-serif;	}
+.font-serif			{ font-family: 'Liberation Serif','DejaVu Serif', Times, 'Times New Roman', serif;					}
+.fontmonospace		{ font-family: 'Liberation Mono','DejaVu Sans Mono', Courier, 'Courier New', Monaco, monospace;		}
+
+.small-caps		{ font-variant:		small-caps;	}
+
+
+
+
+
+/**** Form ****/
+
+/* Avoid browser resizing capabilitie */
+textarea.noresize	{ resize: none;		}
+
+
+
+/**** Grid ****/
+
+/* In case you need to add a vertical gutter uppon / below an element */
+.prepend-tiny	{ margin-top: 9px;		}
+.prepend1		{ margin-top: 18px;		}
+.prepend2		{ margin-top: 36px;		}
+.prepend3		{ margin-top: 54px;		}
+.prepend4		{ margin-top: 72px;		}
+.prepend5		{ margin-top: 90px;		}
+.prepend6		{ margin-top: 108px;	}
+.prepend7		{ margin-top: 126px;	}
+.prepend8		{ margin-top: 144px;	}
+.prepend9		{ margin-top: 162px;	}
+.prepend10		{ margin-top: 180px;	}
+.prepend11		{ margin-top: 198px;	}
+.prepend12		{ margin-top: 216px;	}
+.prepend13		{ margin-top: 234px;	}
+.prepend14		{ margin-top: 252px;	}
+.prepend15		{ margin-top: 270px;	}
+.prepend16		{ margin-top: 288px;	}
+.prepend17		{ margin-top: 306px;	}
+.prepend18		{ margin-top: 324px;	}
+.prepend19		{ margin-top: 342px;	}
+.prepend20		{ margin-top: 360px;	}
+.prepend21		{ margin-top: 378px;	}
+.prepend22		{ margin-top: 396px;	}
+.prepend23		{ margin-top: 414px;	}
+.prepend24		{ margin-top: 432px;	}
+.prepend25		{ margin-top: 450px;	}
+.prepend26		{ margin-top: 468px;	}
+.prepend27		{ margin-top: 486px;	}
+.prepend28		{ margin-top: 504px;	}
+.prepend29		{ margin-top: 522px;	}
+.prepend30		{ margin-top: 540px;	}
+.prepend31		{ margin-top: 558px;	}
+.prepend32		{ margin-top: 576px;	}
+.prepend33		{ margin-top: 594px;	}
+.prepend34		{ margin-top: 612px;	}
+.prepend35		{ margin-top: 630px;	}
+.prepend36		{ margin-top: 648px;	}
+.prepend37		{ margin-top: 666px;	}
+.prepend38		{ margin-top: 684px;	}
+.prepend39		{ margin-top: 702px;	}
+.prepend40		{ margin-top: 720px;	}
+.prepend41		{ margin-top: 738px;	}
+.prepend42		{ margin-top: 756px;	}
+.prepend43		{ margin-top: 774px;	}
+.prepend44		{ margin-top: 792px;	}
+.prepend45		{ margin-top: 810px;	}
+.prepend46		{ margin-top: 828px;	}
+.prepend47		{ margin-top: 846px;	}
+.prepend48		{ margin-top: 864px;	}
+.prepend49		{ margin-top: 882px;	}
+.prepend50		{ margin-top: 900px;	}
+
+.append-tiny	{ margin-bottom: 9px;	}
+.append1		{ margin-bottom: 18px;	}
+.append2		{ margin-bottom: 36px;	}
+.append3		{ margin-bottom: 54px;	}
+.append4		{ margin-bottom: 72px;	}
+.append5		{ margin-bottom: 90px;	}
+.append6		{ margin-bottom: 108px;	}
+.append7		{ margin-bottom: 126px;	}
+.append8		{ margin-bottom: 144px;	}
+.append9		{ margin-bottom: 162px;	}
+.append10		{ margin-bottom: 180px;	}
+.append11		{ margin-bottom: 198px;	}
+.append12		{ margin-bottom: 216px;	}
+.append13		{ margin-bottom: 234px;	}
+.append14		{ margin-bottom: 252px;	}
+.append15		{ margin-bottom: 270px;	}
+.append16		{ margin-bottom: 288px;	}
+.append17		{ margin-bottom: 306px;	}
+.append18		{ margin-bottom: 324px;	}
+.append19		{ margin-bottom: 342px;	}
+.append20		{ margin-bottom: 360px;	}
+.append21		{ margin-bottom: 378px;	}
+.append22		{ margin-bottom: 396px;	}
+.append23		{ margin-bottom: 414px;	}
+.append24		{ margin-bottom: 432px;	}
+.append25		{ margin-bottom: 450px;	}
+.append26		{ margin-bottom: 468px;	}
+.append27		{ margin-bottom: 486px;	}
+.append28		{ margin-bottom: 504px;	}
+.append29		{ margin-bottom: 522px;	}
+.append30		{ margin-bottom: 540px;	}
+.append31		{ margin-bottom: 558px;	}
+.append32		{ margin-bottom: 576px;	}
+.append33		{ margin-bottom: 594px;	}
+.append34		{ margin-bottom: 612px;	}
+.append35		{ margin-bottom: 630px;	}
+.append36		{ margin-bottom: 648px;	}
+.append37		{ margin-bottom: 666px;	}
+.append38		{ margin-bottom: 684px;	}
+.append39		{ margin-bottom: 702px;	}
+.append40		{ margin-bottom: 720px;	}
+.append41		{ margin-bottom: 738px;	}
+.append42		{ margin-bottom: 756px;	}
+.append43		{ margin-bottom: 774px;	}
+.append44		{ margin-bottom: 792px;	}
+.append45		{ margin-bottom: 810px;	}
+.append46		{ margin-bottom: 828px;	}
+.append47		{ margin-bottom: 846px;	}
+.append48		{ margin-bottom: 864px;	}
+.append49		{ margin-bottom: 882px;	}
+.append50		{ margin-bottom: 900px;	}
