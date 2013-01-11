@@ -26,7 +26,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 .font-sans-serif	{ font-family: 'Liberation Sans', 'DejaVu Sans', Arial, Helvetica, 'Helvetica Neue', sans-serif;	}
 .font-serif			{ font-family: 'Liberation Serif','DejaVu Serif', Times, 'Times New Roman', serif;					}
-.fontmonospace		{ font-family: 'Liberation Mono','DejaVu Sans Mono', Courier, 'Courier New', Monaco, monospace;		}
+.font-monospace		{ font-family: 'Liberation Mono','DejaVu Sans Mono', Courier, 'Courier New', Monaco, monospace;		}
 
 .small-caps		{ font-variant:		small-caps;	}
 
