@@ -19,6 +19,11 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 (
 	function($)
 	{
+		function Hide_tooltip()
+		{
+			$(this).tooltip('hide');
+		}
+		
 		$(document).ready
 		(
 			function()
@@ -26,10 +31,10 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 				if ($.fn.tooltip)
 				{
 					// Initialize tooltips on elements below
-					$('.tooltip-hover-top')		.tooltip({'trigger': 'hover', 'placement': 'top'});
-					$('.tooltip-hover-right')	.tooltip({'trigger': 'hover', 'placement': 'right'});
-					$('.tooltip-hover-bottom')	.tooltip({'trigger': 'hover', 'placement': 'bottom'});
-					$('.tooltip-hover-left')	.tooltip({'trigger': 'hover', 'placement': 'left'});
+					$('.tooltip-hover-top')		.tooltip({'trigger': 'hover', 'placement': 'top'})		.click(Hide_tooltip);
+					$('.tooltip-hover-right')	.tooltip({'trigger': 'hover', 'placement': 'right'})	.click(Hide_tooltip);
+					$('.tooltip-hover-bottom')	.tooltip({'trigger': 'hover', 'placement': 'bottom'})	.click(Hide_tooltip);
+					$('.tooltip-hover-left')	.tooltip({'trigger': 'hover', 'placement': 'left'})		.click(Hide_tooltip);
 					$('.tooltip-click-top')		.tooltip({'trigger': 'click', 'placement': 'top'});
 					$('.tooltip-click-right')	.tooltip({'trigger': 'click', 'placement': 'right'});
 					$('.tooltip-click-bottom')	.tooltip({'trigger': 'click', 'placement': 'bottom'});
