@@ -155,3 +155,22 @@ li.dropdown.dropdown-hover:hover ul.dropdown-menu	{ display: block;	}
 .append48		{ margin-bottom: 864px;	}
 .append49		{ margin-bottom: 882px;	}
 .append50		{ margin-bottom: 900px;	}
+
+
+
+
+/**** SVG support ****/
+
+/* 
+ * Ability to switch between PNG and SVG versions of your <img> elements
+ * 
+ * Example:
+ * 
+ * <img src="my_picture.png" class="png" />
+ * <img src="my_picture.svg" class="svg" />
+ */
+
+img.svg					{ display: none;	}
+img.png					{ display: inline;	}
+body.svg-in-img img.svg	{ display: inline;	}
+body.svg-in-img img.png	{ display: none;	}
