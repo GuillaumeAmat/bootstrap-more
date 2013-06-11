@@ -19,10 +19,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 /**** Typography ****/
 
-.align-left		{ text-align: left;		}
-.align-center	{ text-align: center;	}
-.align-right	{ text-align: right;	}
-.align-justify	{ text-align: justify;	}
+.text-justify	{ text-align: justify;	}
 
 .font-sans-serif	{ font-family: 'Liberation Sans', 'DejaVu Sans', Arial, Helvetica, 'Helvetica Neue', sans-serif;	}
 .font-serif			{ font-family: 'Liberation Serif','DejaVu Serif', Times, 'Times New Roman', serif;					}
