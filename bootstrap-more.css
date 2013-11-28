@@ -156,6 +156,24 @@ li.dropdown.dropdown-hover:hover ul.dropdown-menu	{ display: block;	}
 
 
 
+/**** SVG support ****/
+
+/* 
+ * Ability to switch between PNG and SVG versions of your <img> elements
+ * 
+ * Example:
+ * 
+ * <img src="my_picture.png" class="png" />
+ * <img src="my_picture.svg" class="svg" />
+ */
+
+img.svg					{ display: none;	}
+img.png					{ display: inline;	}
+body.svg-in-img img.svg	{ display: inline;	}
+body.svg-in-img img.png	{ display: none;	}
+
+
+
 /**** Carousel ****/
 
 .carousel-fade .carousel-inner .item {
