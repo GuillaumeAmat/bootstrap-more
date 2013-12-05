@@ -1,9 +1,9 @@
 {
   "name": "bootstrap-more",
   "description": "Juste some extra features to Bootstrap",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "homepage": "https://github.com/GuillaumeAmat/bootstrap-more",
-  "license": "MIT"
+  "license": "MIT",
   "authors": [
     "Guillaume AMAT <guillaume.amat@informatique-libre.com>"
   ],
