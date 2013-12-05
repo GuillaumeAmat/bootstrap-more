@@ -1,6 +1,6 @@
 {
-  "name": "Bootstrap More",
-  "version": "0.4.1",
+  "name": "bootstrap-more",
+  "version": "0.4.2",
   "dependencies": {
     "jquery": "~2.0.0",
     "bootstrap": "~3.0.0"
