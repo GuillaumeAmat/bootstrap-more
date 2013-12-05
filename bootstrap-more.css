@@ -19,13 +19,13 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 /**** Typography ****/
 
-.text-justify		{ text-align: justify;	}
+.text-justify		{ text-align: justify; }
 
 .font-sans-serif	{ font-family: 'Liberation Sans', 'DejaVu Sans', Arial, Helvetica, 'Helvetica Neue', sans-serif;	}
 .font-serif			{ font-family: 'Liberation Serif','DejaVu Serif', Times, 'Times New Roman', serif;					}
 .font-monospace		{ font-family: 'Liberation Mono','DejaVu Sans Mono', Courier, 'Courier New', Monaco, monospace;		}
 
-.small-caps			{ font-variant:		small-caps;	}
+.small-caps			{ font-variant: small-caps; }
 
 
 
@@ -41,7 +41,7 @@ textarea.noresize	{ resize: none;		}
 /**** Navbar ****/
 
 /* Open dropdown menus on hover (you must add the dropdown-hover class to do this) */
-li.dropdown.dropdown-hover:hover ul.dropdown-menu	{ display: block;	}
+li.dropdown.dropdown-hover:hover ul.dropdown-menu	{ display: block; }
 
 
 
@@ -158,11 +158,11 @@ li.dropdown.dropdown-hover:hover ul.dropdown-menu	{ display: block;	}
 
 /**** SVG support ****/
 
-/* 
+/*
  * Ability to switch between PNG and SVG versions of your <img> elements
- * 
+ *
  * Example:
- * 
+ *
  * <img src="my_picture.png" class="png" />
  * <img src="my_picture.svg" class="svg" />
  */
