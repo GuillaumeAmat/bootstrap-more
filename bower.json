@@ -3,7 +3,7 @@
   "description": "Juste some extra features to Bootstrap",
   "version": "0.4.4",
   "homepage": "https://github.com/GuillaumeAmat/bootstrap-more",
-  "license": "GPL"
+  "license": "MIT"
   "authors": [
     "Guillaume AMAT <guillaume.amat@informatique-libre.com>"
   ],
