@@ -1,3 +1,7 @@
+Changes in version 0.4.7 :
+- Changes the Bower update behavior to be more flexible
+
+
 Changes in version 0.4.6 :
 - Don't show the dropdown menu on hover when the nav is in mobile style
 
