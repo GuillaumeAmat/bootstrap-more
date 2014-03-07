@@ -1,3 +1,7 @@
+Changes in version 0.4.8 :
+- Waits until the page is fully loaded before trying to add a class to the body element
+
+
 Changes in version 0.4.7 :
 - Changes the Bower update behavior to be more flexible
 
