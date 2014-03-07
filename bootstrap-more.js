@@ -1,12 +1,6 @@
 (
 	function($)
 	{
-		// Support detection: SVG in <img> elements
-		if (document.implementation.hasFeature('http://www.w3.org/TR/SVG11/feature#Image', '1.1'))
-		{
-			$('body').addClass('svg-in-img');
-		}
-
 		function Hide_tooltip()
 		{
 			$(this).tooltip('hide');
@@ -16,6 +10,12 @@
 		(
 			function()
 			{
+				// Support detection: SVG in <img> elements
+				if (document.implementation.hasFeature('http://www.w3.org/TR/SVG11/feature#Image', '1.1'))
+				{
+					$('body').addClass('svg-in-img');
+				}
+
 				if ($.fn.tooltip)
 				{
 					// Initialize tooltips on elements below
