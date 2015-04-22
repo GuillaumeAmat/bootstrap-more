@@ -24,7 +24,16 @@ textarea.noresize	{ resize: none;		}
 /* Open dropdown menus on hover (you must add the dropdown-hover class to do this) */
 @media (min-width: 768px) {
 
-	li.dropdown.dropdown-hover:hover ul.dropdown-menu	{ display: block;	}
+	li.dropdown.dropdown-hover:hover > ul.dropdown-menu	{
+
+		display: block;
+	}
+
+	.nav > li li.dropdown.dropdown-hover > ul.dropdown-menu	{
+
+		left: 100%;
+		top: 0;
+	}
 }
 
 
