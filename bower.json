@@ -7,6 +7,17 @@
   "authors": [
     "Guillaume AMAT <guillaume@amat.io>"
   ],
+  "main": [
+      "bootstrap-more.js",
+      "bootstrap-more.css"
+  ],
+  "ignore": [
+      ".gitignore",
+      "CHANGELOG",
+      "LICENSE",
+      "README.md",
+      "VERSION"
+  ],
   "keywords": [
     "bootstrap-more",
     "bootstrap",
