@@ -1,3 +1,7 @@
+Changes in version 0.4.11 :
+- Add missing attributes in bower.json
+
+
 Changes in version 0.4.10 :
 - Multi-level dropdown-hover support
 
