@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap-more",
+  "description": "Juste some extra features to Bootstrap",
+  "version": "0.4.11",
+  "homepage": "https://github.com/GuillaumeAmat/bootstrap-more",
+  "license": "MIT",
+  "author": {
+    "name": "Guillaume AMAT",
+    "email": "guillaume@amat.io"
+  },
+  "keywords": [
+    "bootstrap-more",
+    "bootstrap",
+    "more"
+  ]
+}
